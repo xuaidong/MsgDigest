@@ -1,8 +1,8 @@
 package cn.hash.md;
 
-import cn.hash.MessageDigest;
+import cn.hash.HASH;
 
-public class MD5 extends MessageDigest {
+public class MD5 extends HASH {
 
     private int[] state;
 

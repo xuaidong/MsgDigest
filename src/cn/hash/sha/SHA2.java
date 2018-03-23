@@ -1,8 +1,8 @@
 package cn.hash.sha;
 
-import cn.hash.MessageDigest;
+import cn.hash.HASH;
 
-public abstract class SHA2 extends MessageDigest {
+public abstract class SHA2 extends HASH {
 
     private int[] W;
 

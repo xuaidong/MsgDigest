@@ -1,13 +1,13 @@
 package cn.hash.md;
 
-import cn.hash.MessageDigest;
+import cn.hash.HASH;
 
 /**
  * MD4是在1990年开发出的一种信息摘要算法，用来测试信息的完整性。
  * 其摘要长度为128位，是一种加密杂凑散列函数，一般128位长的MD4散列被表示为32位的十六进制数字串。
  * MD4由于被发现存在严重的算法漏洞，后被1991年完善的MD5所取代。
  */
-public class MD4 extends MessageDigest {
+public class MD4 extends HASH {
 
     private int[] state;
 
