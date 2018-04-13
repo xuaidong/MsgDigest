@@ -17,3 +17,4 @@ MsgDigest.reset();
 MsgDigest.update((str + str).getBytes());
 System.out.println(bytes2hex(MsgDigest.digest()));
 ```
+![avatar](https://raw.githubusercontent.com/ZDG-Kinlon/MsgDigest/master/test/Test.jpg)
